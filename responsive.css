@@ -1,0 +1,16 @@
+@media all and (max-width: 767px) {
+  #product {
+    flex-direction: column;
+    margin: 1em 2em;
+  }
+  .bg-image {
+    width: 100% !important;
+  }
+  .bg-image img{
+    height: 300px !important;
+  }
+  .description{
+    padding: 1.8em !important;
+    width: 100% !important;
+  }
+}
