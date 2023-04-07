@@ -20,8 +20,8 @@ main {
 #product {
   width: 100%;
   max-width: 650px;
-  background: #fff;
   border-radius: 10px;
+  background-color: hsl(0, 0%, 100%);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   display: flex;
   justify-content: center;
@@ -31,6 +31,7 @@ main {
 
 .bg-image {
   width: 50%;
+  max-height: 480px;
 }
 
 .bg-image img {
@@ -40,7 +41,7 @@ main {
 }
 
 .description {
-  padding: 1.5em 2em;
+  padding: 0 2em;
   width: 50%;
 }
 
@@ -96,8 +97,9 @@ main {
   cursor: pointer;
 }
 
-.description button:hover{
-    background: hsl(158, 36%, 22%);
+.description button:hover {
+  background: hsl(158, 36%, 22%);
+  transition: ease-in-out 0.4s;
 }
 .mar {
   margin-bottom: 1em;
